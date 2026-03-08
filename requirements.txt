@@ -1,6 +1,7 @@
-streamlit
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+streamlit==1.43.0
+torch==2.10.0+cpu
 transformers==4.46.3
-torch
-sentencepiece
-accelerate
-huggingface-hub
+sentencepiece==0.2.0
+huggingface-hub==0.27.1
